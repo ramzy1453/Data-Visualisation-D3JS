@@ -126,15 +126,16 @@ leaf
         </div>
         `);
 
-    // apply border to this
-    if (d.depth < 2) {
-      d3.select(this)
-        .select("rect")
-        .style("stroke", "black")
-        .style("stroke-width", 8);
-    }
-
-    // apply border to parent
+    // if (!d.children) {
+    //leaf node
+    //}
+    //else{
+    //other layers
+    d3.select(this)
+      .select("rect")
+      .style("stroke", "black")
+      .style("stroke-width", 4);
+    // }
   })
   .on("mouseout", function (event, d) {
     // remove tooltip
