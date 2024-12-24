@@ -95,3 +95,6 @@ svg
   .append("g")
   .attr("transform", `translate(0, ${height * 0.7 + 40})`) // Position de l'axe
   .call(axis);
+
+
+  
