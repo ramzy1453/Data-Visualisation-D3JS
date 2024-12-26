@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import { chimie, correlations, lines, rows } from "./data_chimie";
+import { correlations, lines, rows } from "./data_chimie";
 
 const svg = d3.select("svg").attr("width", 800).attr("height", 800);
 
@@ -95,6 +95,3 @@ svg
   .append("g")
   .attr("transform", `translate(0, ${height * 0.7 + 40})`) // Position de l'axe
   .call(axis);
-
-
-  
