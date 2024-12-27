@@ -161,4 +161,3 @@ function getPourcentage(d) {
       break;
   }
 }
-//
