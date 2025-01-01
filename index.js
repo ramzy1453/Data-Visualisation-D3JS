@@ -100,7 +100,6 @@ const headersList = [
   { "X-Silence": "Endless" },
   { "X-Hope-Limit": "Negative" },
 ];
-
 async function tryHeaders() {
   for (const headers of headersList) {
     console.log(`Testing with headers: ${JSON.stringify(headers)}`);
